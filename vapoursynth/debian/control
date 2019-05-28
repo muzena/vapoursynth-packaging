@@ -14,8 +14,8 @@ Build-Depends: debhelper-compat (= 12), libass-dev, libavformat-dev, libavcodec-
 Package: vapoursynth
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, ${python3:Depends}, vapoursynth-ffms2
-Replaces: libvapoursynth3, vapoursynth-python3, libvapoursynth, libvapoursynth-script0, vapoursynth-dev (<< 38-dmo4), vspipe (<= 45.1-dmo2)
-Conflicts: vapoursynth-python3, libvapoursynth, libvapoursynth-script0, vspipe (<= 45.1-dmo2)
+Replaces: libvapoursynth3, vapoursynth-python3, libvapoursynth, libvapoursynth-script0, vapoursynth-dev (<< 38), vspipe (<= 45.1)
+Conflicts: vapoursynth-python3, libvapoursynth, libvapoursynth-script0, vspipe (<= 45.1)
 Description: frameserver for the 21st century
  It's an application for video manipulation. Or a plugin. Or a library. 
  It's hard to tell because it has a core library written in C++ and a Python

@@ -5,7 +5,7 @@ Maintainer: Christian Marillat <marillat@deb-multimedia.org>
 Bugs: mailto:marillat@deb-multimedia.org
 Homepage: http://www.vapoursynth.com/
 Standards-Version: 4.3.0
-Build-Depends: debhelper-compat, libass-dev, libavformat-dev, libavcodec-dev,
+Build-Depends: debhelper, libass-dev, libavformat-dev, libavcodec-dev,
  libtesseract-dev, nasm [any-i386 any-amd64], cython3, libpython3-dev (>= 3.6~),
  python3, libzimg-dev (>= 2.8~), python3-sphinx, libleptonica-dev, dh-python
 

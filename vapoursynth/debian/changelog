@@ -1,4 +1,4 @@
-vapoursynth-dmo (45.1-dmo4) unstable; urgency=medium
+vapoursynth (45.1-dmo4) unstable; urgency=medium
 
   * Fix Conflicts/Replaces
 

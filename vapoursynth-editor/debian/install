@@ -1,0 +1,5 @@
+converted_icons/*			usr/share
+debian/vsedit.desktop			usr/share/applications
+build/*/vsedit				usr/bin
+build/*/vsedit-job-server		usr/bin
+build/*/vsedit-job-server-watcher	usr/bin

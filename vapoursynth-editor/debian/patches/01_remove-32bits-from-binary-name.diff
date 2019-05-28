@@ -1,0 +1,13 @@
+Index: vapoursynth-editor-dmo-17/pro/vsedit/vsedit.pro
+===================================================================
+--- vapoursynth-editor-dmo-17.orig/pro/vsedit/vsedit.pro
++++ vapoursynth-editor-dmo-17/pro/vsedit/vsedit.pro
+@@ -62,7 +62,7 @@ CONFIG(debug, debug|release) {
+ 			OBJECTS_DIR = $${PROJECT_DIRECTORY}/generated/obj-release-64bit-gcc
+ 		} else {
+ 			DESTDIR = $${COMMON_DIRECTORY}/build/release-32bit-gcc
+-			TARGET = vsedit-32bit
++			TARGET = vsedit
+ 			OBJECTS_DIR = $${PROJECT_DIRECTORY}/generated/obj-release-32bit-gcc
+ 		}
+ 

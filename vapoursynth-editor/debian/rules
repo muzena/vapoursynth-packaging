@@ -1,0 +1,24 @@
+#!/usr/bin/make -f
+
+%:
+	dh ${@} -Dpro -Bbuild
+
+override_dh_auto_configure:
+	mkdir build
+	cd build && qmake -norecursive ../pro/pro.pro CONFIG+=release
+
+override_dh_clean:
+	dh_clean pro/.qmake.stash pro/Makefile
+
+	rm -rf converted_icons generated vsedit/generated \
+	vsedit-job-server/generated vsedit-job-server-watcher/generated
+
+override_dh_install:
+	debian/make-icons.sh resources/vsedit.svg
+
+	dh_install
+
+override_dh_missing:
+	dh_missing --fail-missing
+
+override_dh_dwz:

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=VSEdit
+Comment=create and modify VapourSynth scripts
+GenericName=VapourSynth Editor
+Exec=vsedit %u
+Terminal=false
+Type=Application
+Icon=vsedit
+Categories=Qt;Utility;TextEditor;
+StartupNotify=true

@@ -1,0 +1,82 @@
+Source: vapoursynth-dmo
+Section: libs
+Priority: optional
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Bugs: mailto:marillat@deb-multimedia.org
+Homepage: http://www.vapoursynth.com/
+Standards-Version: 4.3.0
+Build-Depends: debhelper-compat (= 12), libass-dev, libavformat-dev, libavcodec-dev,
+ libtesseract-dev, nasm [any-i386 any-amd64], cython3, libpython3-dev (>= 3.6~),
+ python3, libzimg-dev (>= 2.8~), python3-sphinx, libleptonica-dev, dh-python
+
+#libmagick++-6.q16-dev,
+
+Package: vapoursynth
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, ${python3:Depends}, vapoursynth-ffms2
+Replaces: libvapoursynth3, vapoursynth-python3, libvapoursynth, libvapoursynth-script0, vapoursynth-dev (<< 38-dmo4), vspipe (<= 45.1-dmo2)
+Conflicts: vapoursynth-python3, libvapoursynth, libvapoursynth-script0, vspipe (<= 45.1-dmo2)
+Description: frameserver for the 21st century
+ It's an application for video manipulation. Or a plugin. Or a library. 
+ It's hard to tell because it has a core library written in C++ and a Python
+ module to allow video scripts to be created. It came to be when I started
+ thinking about alternative designs for Avisynth and most of it was written
+ over a 3 month period. The software has been heavily inspired by Avisynth
+ and aims to be a 21st century rewrite, taking advantage of the advancements
+ computers have made since the late 90s. The main features compared to
+ Avisynth are:
+ .
+  * Multithreaded - Frame level multithreading
+  * Generalized Colorspaces - New Colorspaces can be specified at runtime
+  * Per Frame Properties - Additional metadata can be attached to frames
+  * Python Based - The scripting part is implemented as a Python module so
+    you don't have to learn a special language
+  * Support for video with format changes - Some video just can't stick to
+    one format or frame size VapourSynth can handle any kind of change
+
+Package: vapoursynth-dev
+Architecture: any
+Section: libdevel
+Depends: ${misc:Depends}, vapoursynth (= ${binary:Version}), libzimg-dev, pkg-config
+Description: frameserver for the 21st century - development files
+ It's an application for video manipulation. Or a plugin. Or a library. 
+ It's hard to tell because it has a core library written in C++ and a Python
+ module to allow video scripts to be created. It came to be when I started
+ thinking about alternative designs for Avisynth and most of it was written
+ over a 3 month period. The software has been heavily inspired by Avisynth
+ and aims to be a 21st century rewrite, taking advantage of the advancements
+ computers have made since the late 90s. The main features compared to
+ Avisynth are:
+ .
+  * Multithreaded - Frame level multithreading
+  * Generalized Colorspaces - New Colorspaces can be specified at runtime
+  * Per Frame Properties - Additional metadata can be attached to frames
+  * Python Based - The scripting part is implemented as a Python module so
+    you don't have to learn a special language
+  * Support for video with format changes - Some video just can't stick to
+    one format or frame size VapourSynth can handle any kind of change
+
+Package: vapoursynth-doc
+Section: doc
+Architecture: all
+Depends: ${misc:Depends}, ${sphinxdoc:Depends}
+## libjs-jquery, libjs-underscore
+Replaces: vapoursynth-docs
+Conflicts: vapoursynth-docs
+Description: frameserver for the 21st century - documentation
+ It's an application for video manipulation. Or a plugin. Or a library. 
+ It's hard to tell because it has a core library written in C++ and a Python
+ module to allow video scripts to be created. It came to be when I started
+ thinking about alternative designs for Avisynth and most of it was written
+ over a 3 month period. The software has been heavily inspired by Avisynth
+ and aims to be a 21st century rewrite, taking advantage of the advancements
+ computers have made since the late 90s. The main features compared to
+ Avisynth are:
+ .
+  * Multithreaded - Frame level multithreading
+  * Generalized Colorspaces - New Colorspaces can be specified at runtime
+  * Per Frame Properties - Additional metadata can be attached to frames
+  * Python Based - The scripting part is implemented as a Python module so
+    you don't have to learn a special language
+  * Support for video with format changes - Some video just can't stick to
+    one format or frame size VapourSynth can handle any kind of change

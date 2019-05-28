@@ -1,0 +1,5 @@
+usr/lib/*/vapoursynth/*.so
+usr/lib/*/libvapoursynth.so
+usr/lib/python*/site-packages/vapoursynth.so
+usr/lib/*/libvapoursynth-script.so*
+usr/bin/vspipe

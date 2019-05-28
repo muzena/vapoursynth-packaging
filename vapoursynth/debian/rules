@@ -1,0 +1,34 @@
+#!/usr/bin/make -f
+
+%:
+	dh ${@} -Bbuild --with python3,sphinxdoc
+
+override_dh_auto_configure:
+	dh_auto_configure
+
+#	exit 1
+
+override_dh_install:
+	$(MAKE) -C doc man
+
+	dh_install -Xjquery.js -Xunderscore.js -X.la
+
+override_dh_missing:
+	dh_missing --fail-missing -Xjquery.js -Xunderscore.js -X.la
+
+override_dh_installdocs-indep:
+	$(MAKE) -C doc html
+
+	dh_installdocs -i
+
+	mv debian/vapoursynth-doc/usr/share/doc/vapoursynth/* \
+	debian/vapoursynth-doc/usr/share/doc/vapoursynth-doc/
+
+	rmdir debian/vapoursynth-doc/usr/share/doc/vapoursynth
+
+override_dh_auto_clean:
+	[ ! -f Makefile ] || $(MAKE) distclean
+
+	$(MAKE) -C doc distclean
+
+	-rm -rf build

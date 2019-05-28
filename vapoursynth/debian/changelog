@@ -1,0 +1,366 @@
+vapoursynth-dmo (45.1-dmo4) unstable; urgency=medium
+
+  * Fix Conflicts/Replaces
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Wed, 10 Apr 2019 18:26:39 +0200
+
+vapoursynth-dmo (45.1-dmo3) unstable; urgency=medium
+
+  * Move vspipe binary to vapoursynth package.
+  * Should depends on vapoursynth-ffms2
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Wed, 10 Apr 2019 17:04:10 +0200
+
+vapoursynth-dmo (45.1-dmo2) unstable; urgency=medium
+
+  * Rebuild for python 3.7
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Thu, 22 Nov 2018 01:05:17 +0100
+
+vapoursynth-dmo (45.1-dmo1) unstable; urgency=medium
+
+  * New upstream bugfix release.
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Sat, 27 Oct 2018 00:39:51 +0200
+
+vapoursynth-dmo (45-dmo1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Sun, 21 Oct 2018 09:38:18 +0200
+
+vapoursynth-dmo (44-dmo2) unstable; urgency=medium
+
+  * Build with dh_sphinxdoc
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Sat, 28 Jul 2018 17:33:06 +0200
+
+vapoursynth-dmo (44-dmo1) unstable; urgency=medium
+
+  * New upstream bugfix release.
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Fri, 13 Jul 2018 18:00:38 +0200
+
+vapoursynth-dmo (43-dmo3) unstable; urgency=medium
+
+  * Rename vapoursynth-docs to vapoursynth-doc
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Sat, 30 Jun 2018 07:25:06 +0200
+
+vapoursynth-dmo (43-dmo2) unstable; urgency=medium
+
+  * Rebuild against ffmpeg 4.0
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Sat, 21 Apr 2018 17:18:12 +0200
+
+vapoursynth-dmo (43-dmo1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Wed, 31 Jan 2018 23:45:08 +0100
+
+vapoursynth-dmo (42.1-dmo1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Tue, 16 Jan 2018 01:34:10 +0100
+
+vapoursynth-dmo (41-dmo1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Tue, 09 Jan 2018 22:04:08 +0100
+
+vapoursynth-dmo (40-dmo2) unstable; urgency=medium
+
+  * Rebuild against libtesseract4
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Tue, 19 Dec 2017 14:41:55 +0100
+
+vapoursynth-dmo (40-dmo1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Fri, 10 Nov 2017 23:07:12 +0100
+
+vapoursynth-dmo (39-dmo2) unstable; urgency=medium
+
+  * Rebuild for python 3.6
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Tue, 10 Oct 2017 19:21:10 +0200
+
+vapoursynth-dmo (39-dmo1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/control Replaces yasm by nasm in Builde-Depends.
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Sun, 08 Oct 2017 01:14:35 +0200
+
+vapoursynth-dmo (38-dmo7) unstable; urgency=medium
+
+  * Rebuild to fix an 'undefined symbol: PyFPE_jbuf' error.
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Fri, 15 Sep 2017 09:30:05 +0200
+
+vapoursynth-dmo (38-dmo6) unstable; urgency=medium
+
+  * Remove empty libvapoursynth package.
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Mon, 12 Jun 2017 22:42:30 +0200
+
+vapoursynth-dmo (38-dmo5) unstable; urgency=medium
+
+  * Move libvapoursynth-script0 files to vapoursynth package.
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Sun, 11 Jun 2017 15:39:25 +0200
+
+vapoursynth-dmo (38-dmo4) unstable; urgency=medium
+
+  * Add pkg-config to vapoursynth-dev Depends
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Sat, 10 Jun 2017 17:22:15 +0200
+
+vapoursynth-dmo (38-dmo3) unstable; urgency=medium
+
+  * Removes all -dev package from Recommends: for vapoursynth-dev packages.
+  * vapoursynth-dev must depends on libzimg-dev
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Sat, 10 Jun 2017 15:59:16 +0200
+
+vapoursynth-dmo (38-dmo2) unstable; urgency=medium
+
+  * Move vapoursynth-python3 data to libvapoursynth package.
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Thu, 08 Jun 2017 08:07:14 +0200
+
+vapoursynth-dmo (38-dmo1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Tue, 06 Jun 2017 08:57:54 +0200
+
+vapoursynth-dmo (37-dmo1) unstable; urgency=medium
+
+  * Upload to my repository.
+
+ -- Christian Marillat <marillat@deb-multimedia.org>  Mon, 05 Jun 2017 15:58:01 +0200
+
+vapoursynth (37-1~zesty) zesty; urgency=low
+
+  * New release version
+  * Update imagemagick to 6.9.7.4+dfsg-3ubuntu1
+  * Update pre-generated files
+
+ -- Marshall Banana <djcj@gmx.de>  Sat, 29 Apr 2017 11:55:10 +0200
+
+vapoursynth (36-2~trusty) trusty; urgency=low
+
+  * No-changes rebuild against libass.so.5
+
+ -- Marshall Banana <djcj@gmx.de>  Fri, 03 Feb 2017 18:16:44 +0100
+
+vapoursynth (36-1~trusty1) trusty; urgency=low
+
+  * New release version
+  * Add pre-generated Cython files to the sources (trusty and xenial)
+
+ -- Marshall Banana <djcj@gmx.de>  Fri, 03 Feb 2017 10:31:18 +0100
+
+vapoursynth (35-2~trusty) trusty; urgency=medium
+
+  * Enable SubText plugin
+  * Update imagemagick to 6.8.9.9-7ubuntu8.2
+  * Add pre-generated docs to the sources
+
+ -- Marshall Banana <djcj@gmx.de>  Sat, 24 Dec 2016 01:23:12 +0100
+
+vapoursynth (35-1~trusty1) trusty; urgency=low
+
+  * New release version
+  * Can't build documentation for now
+
+ -- Marshall Banana <djcj@gmx.de>  Tue, 01 Nov 2016 13:44:50 +0100
+
+vapoursynth (33.1-1~trusty3) trusty; urgency=low
+
+  * New release version
+
+ -- Marshall Banana <djcj@gmx.de>  Tue, 30 Aug 2016 13:31:11 +0200
+
+vapoursynth (32-3~trusty) trusty; urgency=medium
+
+  * Update imagemagick to 6.8.9.9-7ubuntu7
+
+ -- Marshall Banana <djcj@gmx.de>  Fri, 03 Jun 2016 14:12:13 +0200
+
+vapoursynth (32-2~trusty) trusty; urgency=medium
+
+  * Add backport of 2e3d3eb to fix crash with expressions using the ternary op
+
+ -- Marshall Banana <djcj@gmx.de>  Sat, 23 Apr 2016 18:57:55 +0200
+
+vapoursynth (32-1~trusty) trusty; urgency=low
+
+  * New release version
+  * Change dependency in libvapoursynth-dev from libpython3.4-dev
+    to libpython3-dev
+
+ -- Marshall Banana <djcj@gmx.de>  Thu, 14 Apr 2016 09:47:25 +0200
+
+vapoursynth (31-2~trusty) trusty; urgency=low
+
+  * Apply Ubuntu 16.04 patches to ImageMagick
+
+ -- Marshall Banana <djcj@gmx.de>  Tue, 22 Mar 2016 16:22:52 +0100
+
+vapoursynth (31-1~trusty) trusty; urgency=low
+
+  * New release version
+
+ -- Marshall Banana <djcj@gmx.de>  Sat, 06 Feb 2016 19:15:25 +0100
+
+vapoursynth (30-1~trusty) trusty; urgency=low
+
+  * New release version
+  * Update imagemagick to 6.8.9.9-7
+
+ -- Marshall Banana <djcj@gmx.de>  Wed, 20 Jan 2016 18:11:48 +0100
+
+vapoursynth (29-1~trusty) trusty; urgency=low
+
+  * New release version
+
+ -- Marshall Banana <djcj@gmx.de>  Fri, 18 Dec 2015 09:01:08 +0100
+
+vapoursynth (28-1~trusty) trusty; urgency=low
+
+  * New release version
+  * Update imagemagick to 6.8.9.9-6
+
+ -- Marshall Banana <djcj@gmx.de>  Sun, 08 Nov 2015 08:27:55 +0100
+
+vapoursynth (27+repack1-1~trusty) trusty; urgency=low
+
+  * Build image writer plugin
+
+ -- Marshall Banana <djcj@gmx.de>  Sat, 12 Sep 2015 03:24:28 +0200
+
+vapoursynth (27-2~trusty1) trusty; urgency=low
+
+  * Replace the package libvapoursynth3 with libvapoursynth and
+    libvapoursynth-script0
+
+ -- Marshall Banana <djcj@gmx.de>  Wed, 15 Jul 2015 22:28:59 +0200
+
+vapoursynth (27-1~trusty) trusty; urgency=low
+
+  * New release version
+
+ -- Marshall Banana <djcj@gmx.de>  Thu, 14 May 2015 12:09:59 +0200
+
+vapoursynth (26-1~trusty) trusty; urgency=low
+
+  * No-changes re-upload of R26 to change the versioning
+  * Remove setup.py patch
+  * Add missing field initializers in src/filters/removegrain/clense.cpp
+
+ -- Marshall Banana <djcj@gmx.de>  Fri, 13 Mar 2015 13:25:25 +0100
+
+vapoursynth (0+R26-1~trusty) trusty; urgency=low
+
+  * New release version
+
+ -- Marshall Banana <djcj@gmx.de>  Sun, 15 Feb 2015 08:55:26 +0100
+
+vapoursynth (0+R25+git20141217-1~trusty) trusty; urgency=low
+
+  * Git snapshot
+  * Move vapoursynth manpage to section 3 (libs)
+
+ -- Marshall Banana <djcj@gmx.de>  Thu, 18 Dec 2014 09:27:51 +0100
+
+vapoursynth (0+R25~git20141123-1~trusty1) trusty; urgency=medium
+
+  * Git snapshot
+  * Don't version libvapoursynth.so:
+    https://github.com/vapoursynth/vapoursynth/issues/89#issuecomment-64115812
+  * Remove cython3 from build-dependencies
+  * Build separate libvapoursynth-script0 package
+
+ -- Marshall Banana <djcj@gmx.de>  Sun, 23 Nov 2014 14:21:04 +0100
+
+vapoursynth (0+R25~git20141115-2~trusty) trusty; urgency=medium
+
+  * Add virtual package vapoursynth-python
+  * Make libvapoursynth3 depend on vapoursynth-python3
+
+ -- Marshall Banana <djcj@gmx.de>  Sat, 15 Nov 2014 18:50:07 +0100
+
+vapoursynth (0+R25~git20141115-1~trusty) trusty; urgency=medium
+
+  * Git snapshot
+  * Don't build Python 2 module
+  * Build separate doc package
+
+ -- Marshall Banana <djcj@gmx.de>  Sat, 15 Nov 2014 17:53:27 +0100
+
+vapoursynth (0+R24+git20140922-3~trusty1) trusty; urgency=medium
+
+  * New version
+  * Install doc-base entry
+  * Build debug package
+  * Update vspipe manpage
+  * Update waf installer
+  * Simplify debian/rules
+  * Build static libraries without -fPIC
+  * Set libvapoursynth-script soname version to 0.0.0
+  * Link libvapoursynth.so.3 against -pthread
+  * Comment out 'Requires.private' lines in pc files
+  * Add dependencies to ibvapoursynth-dev
+
+ -- Marshall Banana <djcj@gmx.de>  Sun, 28 Sep 2014 17:38:17 +0200
+
+vapoursynth (0+R24+git20140922-2~trusty) trusty; urgency=medium
+
+  * New version
+  * Install doc-base entry
+  * Build debug package
+  * Update vspipe manpage
+  * Update waf installer
+  * Simplify debian/rules
+  * Build static libraries without -fPIC
+  * Set libvapoursynth-script soname version to 0.0.0
+  * Link libvapoursynth.so.3 against -pthread
+
+ -- Marshall Banana <djcj@gmx.de>  Sun, 28 Sep 2014 16:18:51 +0200
+
+vapoursynth (0+R24+git20140922-1~trusty) trusty; urgency=medium
+
+  * New version
+  * Install doc-base entry
+  * Build debug package
+  * Update vspipe manpage
+  * Update waf installer
+  * Simplify debian/rules
+  * Build static libraries without -fPIC
+  * Set libvapoursynth-script soname version to 0.0.0
+
+ -- Marshall Banana <djcj@gmx.de>  Sun, 28 Sep 2014 12:10:36 +0200
+
+vapoursynth (0+R23-2~trusty1) trusty; urgency=low
+
+  * Build less packages
+
+ -- Marshall Banana <djcj@gmx.de>  Sun, 13 Jul 2014 10:19:12 +0200
+
+vapoursynth (0+R23-1~trusty5) trusty; urgency=low
+
+  * close itp bug
+
+ -- Marshall Banana <djcj@gmx.de>  Sun, 13 Jul 2014 08:37:55 +0200
+
+vapoursynth (0+R23) UNRELEASED; urgency=low
+
+  * Initial release
+
+ -- Marshall Banana <djcj@gmx.de>  Fri, 11 Jul 2014 23:25:54 +0200

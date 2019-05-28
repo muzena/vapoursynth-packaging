@@ -1,0 +1,9 @@
+Document: vapoursynth
+Title: VapourSynth Documentation
+Author: Fredrik Mellbin <fredrik.mellbin@gmail.com>
+Abstract: This is the official VapourSynth documentation
+Section: Video
+
+Format: HTML
+Index: /usr/share/doc/vapoursynth-doc/html/index.html
+Files: /usr/share/doc/vapoursynth-doc/html/*.html

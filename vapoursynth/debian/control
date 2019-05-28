@@ -6,7 +6,7 @@ Bugs: mailto:marillat@deb-multimedia.org
 Homepage: http://www.vapoursynth.com/
 Standards-Version: 4.3.0
 Build-Depends: debhelper-compat (= 12), libass-dev, libavformat-dev, libavcodec-dev,
- libtesseract-dev, nasm [any-i386 any-amd64], cython3, libpython3-dev (>= 3.6~),
+ libtesseract-dev, nasm [any-i386 any-amd64], cython3, libpython3-dev (>= 3.5~),
  python3, libzimg-dev (>= 2.8~), python3-sphinx, libleptonica-dev, dh-python
 
 #libmagick++-6.q16-dev,

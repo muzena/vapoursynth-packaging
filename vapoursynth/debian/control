@@ -34,7 +34,7 @@ Description: frameserver for the 21st century
   * Support for video with format changes - Some video just can't stick to
     one format or frame size VapourSynth can handle any kind of change
 
-Package: vapoursynth-dev
+Package: libvapoursynth-dev
 Architecture: any
 Section: libdevel
 Depends: ${misc:Depends}, vapoursynth (= ${binary:Version}), libzimg-dev, pkg-config

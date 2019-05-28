@@ -5,8 +5,8 @@ Maintainer: Christian Marillat <marillat@deb-multimedia.org>
 Bugs: mailto:marillat@deb-multimedia.org
 Homepage: https://bitbucket.org/mystery_keeper/vapoursynth-editor
 Standards-Version: 4.3.0
-Build-Depends: debhelper-compat (= 12), imagemagick, librsvg2-bin, vapoursynth-dev (>= 38),
- qt5-default, qtbase5-dev-tools, libqt5websockets5-dev
+Build-Depends: debhelper, imagemagick, librsvg2-bin, vapoursynth-dev,
+ qt5-default, qt5-qmake, qtbase5-dev, qtbase5-dev-tools, libqt5websockets5-dev
 
 Package: vapoursynth-editor
 Architecture: any

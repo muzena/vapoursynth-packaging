@@ -1,7 +1,9 @@
 [Desktop Entry]
 Name=VSEdit
 Comment=create and modify VapourSynth scripts
+Comment[hr]=Stvorite i uredite VapourSynth skripte
 GenericName=VapourSynth Editor
+GenericName[hr]=VapourSynth uređivač
 Exec=vsedit %u
 Terminal=false
 Type=Application
